@@ -117,6 +117,9 @@ const TerminalLayout = () => {
             Ubuntu Terminal Simulator - Educational Tool<br />
             <span className="text-xs">Not affiliated with Canonical Ltd.</span>
           </p>
+          <p className="text-xs text-gray-500 mt-2 opacity-60">
+            Created by Ahmed Nadir
+          </p>
         </div>
       </footer>
       
