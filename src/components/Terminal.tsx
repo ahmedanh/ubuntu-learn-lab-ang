@@ -708,8 +708,9 @@ const Terminal = ({ showHints = true }: TerminalProps) => {
               value={currentCommand}
               onChange={handleInputChange}
               onKeyDown={handleKeyDown}
-              className="w-full bg-transparent outline-none ubuntu-mono"
+              className="w-full bg-transparent outline-none ubuntu-mono text-white caret-white"
               autoFocus
+              spellCheck="false"
             />
             
             {/* Command suggestions */}
@@ -726,9 +727,6 @@ const Terminal = ({ showHints = true }: TerminalProps) => {
                 ))}
               </div>
             )}
-            
-            {/* Blinking cursor */}
-            <span className="inline-block w-2 h-5 bg-white ml-0.5 animate-cursor-blink"></span>
           </div>
         </div>
       </div>
